@@ -1,8 +1,6 @@
 import React from 'react';
 
 const Explore = ({ drugData }) => {
-  console.log(drugData, 'Explore');
-
   function formatDate(inputDate) {
     const months = [
       'January',

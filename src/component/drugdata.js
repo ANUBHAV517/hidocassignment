@@ -48,7 +48,6 @@ const Drugdata = ({ drugData }) => {
             </div>
             <div class="table-body">
               {drugData?.map((drugitem, index) => {
-                console.log(drugitem, 'drugitem');
                 return (
                   <div
                     class={activeDrugData == index ? 'active-drug-data' : ''}
