@@ -394,7 +394,9 @@ flex: 0 0 50%;
     flex: 0 0 15%;
     margin: 10px 20px;
     padding: 20px;
-    line-height: 50px;
+  }
+  .main-footer .top-footer .first .content{
+    margin:20px 0 ;
   }
   .main-footer .top-footer .first .social-media{
     display: flex;
